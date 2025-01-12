@@ -25,7 +25,8 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  /* this is the only thing i changed */
+  justify-content: center; 
   min-width: 320px;
   min-height: 100vh;
 }
