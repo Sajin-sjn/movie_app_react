@@ -1,6 +1,7 @@
 import React from "react";
 import MovieCard from "../components/MovieCard";
 import { useState } from "react";
+import "../css/Home.css";
 
 const Home = () => {
   const movies = [
@@ -43,10 +44,11 @@ const Home = () => {
       <form onSubmit={handleSearch} className="search-form">
         <input
           type="text"
+          className="search-input"
           placeholder="Search for a movie"
           onChange={(event) => setSearchTerm(event.target.value)}
         />
-        <button type="submit">Search</button>
+        <button className="search-button" type="submit">Search</button>
       </form>
       <div className="movie-list">
         {movies.map((movie) => (

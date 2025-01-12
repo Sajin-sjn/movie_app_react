@@ -8,6 +8,8 @@ import Home from "./pages/Home";
 import { Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 
+import "./css/App.css";
+
 function App() {
   return (
     <>

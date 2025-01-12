@@ -1,9 +1,10 @@
 import React from 'react';
+import '../css/Favorites.css';
 
 const Favourites = () => {
     return (
-        <div>
-            <h1>No Favourites Yet!!</h1>
+        <div className='favorites'>
+            <h2>No Favourites Yet!!</h2>
         </div>
     );
 }
