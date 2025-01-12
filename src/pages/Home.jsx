@@ -31,7 +31,7 @@ const Home = () => {
   ];
 
   const [searchTerm, setSearchTerm] = useState("");
-  console.log(searchTerm);
+  // console.log(searchTerm);
 
   const handleSearch = (event) => {
     alert("Search for " + searchTerm);
